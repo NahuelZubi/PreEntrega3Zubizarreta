@@ -1,63 +1,78 @@
+/* Estilos generales */
 body {
     margin: 0;
     padding: 0;
-    font-family: Pixelify Sans;
+    font-family: 'Pixelify Sans', sans-serif;
 }
+
 a {
-text-decoration: none;
+    text-decoration: none;
 }
-li{
+
+li {
     list-style: none;
 }
-.contenedor{
+
+.contenedor {
     width: 80%;
     max-width: 1280px;
     margin: auto;
 }
 
-header{
-    background: url(images/fondo.jpg);
+/* Encabezado */
+header {
+    background: url(../images/fondo.jpg);
     height: 80%;
 }
 
-header .menu{
+header .menu {
     display: flex;
     justify-content: space-between;
     padding-top: 20%;
 }
-header .logo-y-menu{
-display: flex;
-align-items: center;
+
+header .logo-y-menu {
+    display: flex;
+    align-items: center;
 }
+
 nav ul {
     display: flex;
 }
-nav ul li{
+
+nav ul li {
     margin: 0 20px;
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
 }
+
 header a, .botones a {
     background: purple;
 }
+
 header .titular {
     margin-top: 40vh;
 }
+
 h1 {
     font-size: 50px;
     width: 100%;
 }
+
 .blanco {
-background: white   !important;
+    background: white !important;
 }
 
 .white {
     background: white !important;
 }
 
+/* Sección música */
 #musica {
-    background-color: rgb(246, 20, 235)
+    background-color: rgb(246, 20, 235);
+    padding: 50px 0;
 }
 
 #musica h2 {
@@ -69,14 +84,14 @@ background: white   !important;
     border-radius: 50px;
 }
 
-#musica .contenedor{
+#musica .contenedor {
     display: flex;
     align-items: center;
 }
 
 #musica span {
-color: blueviolet;
-text-decoration: underline;
+    color: blueviolet;
+    text-decoration: underline;
 }
 
 #musica h2 {
@@ -92,24 +107,26 @@ text-decoration: underline;
 #musica img {
     width: 100%;
 }
+
 #musica .texto {
     width: 50%;
 }
 
 #musica .foto {
-    width: 40%;  
+    width: 40%;
 }
 
-
+/* Acerca de */
 #about h4 {
-    color:black
+    color: black;
 }
 
-#about p, #tour p {
-    font-family: Poppins;
+#about p,
+#tour p {
+    font-family: 'Poppins', sans-serif;
 }
 
-.negro  {
+.negro {
     background: palevioletred !important;
 }
 
@@ -117,17 +134,23 @@ text-decoration: underline;
     padding: 100px 0;
 }
 
+/* Tours */
 #tour {
-    background: rgb(228, 71, 228)
-    padding-box
+    background: rgb(228, 71, 228);
+    padding: 50px 0;
 }
 
-#tour img{
+#tour img {
     width: 100%;
 }
 
+#tour .contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
 #tour .texto {
-width: 50%;
+    width: 50%;
 }
 
 #tour .imagen {
@@ -136,14 +159,8 @@ width: 50%;
     top: -30px;
 }
 
-#tour .contenedor {
-    display: flex;
-    justify-content: space-around;
-}
-
-#tour h4{
-    color:black
-    
+#tour h4 {
+    color: black;
 }
 
 .fechas {
@@ -156,16 +173,37 @@ width: 50%;
     font-size: 34px;
 }
 
-.fechas h5 .fechas p {
-    margin: 0%;
+.fechas h5,
+.fechas p {
+    margin: 0;
 }
 
-.fechas h5{
+.fechas h5 {
     font-size: 20px;
 }
 
 .fechas a {
     background: white;
     color: black;
+}
 
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Redes sociales*/
+.redes {
+    font-size: 24px;
+}
+
+.redes i {
+    margin-right: 15px;
 }
